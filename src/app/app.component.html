@@ -1,1 +1,28 @@
-<h1>Working...</h1>
+<div class="header">
+  <div class="header__text">
+    <p>A Demo Application for Angular Localization</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="translate">
+    <div class="translate__text">
+      <p>{{ "Demo-app.title" | translate }}</p>
+    </div>
+
+    <div class="translate__button">
+      <div class="translate__button--english">
+        <button class="btn" (click)="onChangeLnguage('en')">English</button>
+      </div>
+      <div class="translate__button--english">
+        <button class="btn" (click)="onChangeLnguage('fr')">French</button>
+      </div>
+      <div class="translate__button--english">
+        <button class="btn" (click)="onChangeLnguage('kn')">Kannada</button>
+      </div>
+      <div class="translate__button--english">
+        <button class="btn" (click)="onChangeLnguage('hi')">Hindi</button>
+      </div>
+    </div>
+  </div>
+</div>
