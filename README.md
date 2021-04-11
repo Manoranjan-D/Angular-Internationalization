@@ -2,6 +2,10 @@
 
 ![](src/assets/demo-icon.png)
 
+## Live Demo
+
+[Demo](https://angular-internationalization.netlify.app)
+
 ## Development server
 
 `git clone https://github.com/Manoranjan-D/Angular-Internationalization.git`
