@@ -2,7 +2,7 @@
 
 ### Demo application for Angular Localization
 
-![](assets/demo-icon.png)
+![](/assets/demo-icon.png)
 
 ## Development server
 
