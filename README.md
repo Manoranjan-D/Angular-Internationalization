@@ -16,7 +16,9 @@ Navigate to `http://localhost:4200/`. The app will automatically reload if you c
 
 `docker pull manoranjandocker/angular-internationalization`
 
-`docker run`
+`docker run -d --rm -p 8080:80 manoranjandocker/angular-internationalization`
+
+Navigate to `http://localhost:8080/`.
 
 ### Steps for making Angular application localization
 
