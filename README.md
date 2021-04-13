@@ -1,6 +1,6 @@
 # Angular-Internationalization
 
-![](src/assets/demo-icon.png)
+![](src/assets/screenshot.png)
 
 ## Live Demo
 
