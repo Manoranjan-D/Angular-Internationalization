@@ -1,28 +1,37 @@
-<div class="header">
-  <div class="header__text">
-    <p>Demo Application for Angular Localization</p>
+<div class="container-md overflow-hidden">
+  <!-- HEADER -->
+  <div class="row p-4 header">
+    <div class="col-md">
+      <p class="text-center">Demo Application for Angular Localization</p>
+    </div>
   </div>
-</div>
 
-<div class="container">
-  <div class="translate">
-    <div class="translate__text">
+  <!-- TRANSALATION -->
+  <div class="row d-flex align-items-center translate">
+    <div
+      class="col-md d-flex justify-content-center align-items-center shadow p-3 mb-5 bg-body rounded border-bottom border-primary translate__block"
+    >
       <p>{{ "Demo-app.title" | translate }}</p>
     </div>
+  </div>
 
-    <div class="translate__button">
-      <div class="translate__button--english">
-        <button class="btn" (click)="onChangeLnguage('en')">English</button>
-      </div>
-      <div class="translate__button--english">
-        <button class="btn" (click)="onChangeLnguage('fr')">French</button>
-      </div>
-      <div class="translate__button--english">
-        <button class="btn" (click)="onChangeLnguage('kn')">Kannada</button>
-      </div>
-      <div class="translate__button--english">
-        <button class="btn" (click)="onChangeLnguage('hi')">Hindi</button>
-      </div>
+  <!-- BUTTONS TO CHANGE LANGUAGES -->
+  <div class="div row gy-5">
+    <div class="d-grid gap-3 col-6">
+      <button class="btn btn-danger" (click)="onChangeLnguage('en')">
+        English
+      </button>
+      <button class="btn btn-danger" (click)="onChangeLnguage('fr')">
+        French
+      </button>
+    </div>
+    <div class="d-grid gap-3 col-6">
+      <button class="btn btn-danger" (click)="onChangeLnguage('hi')">
+        Hindi
+      </button>
+      <button class="btn btn-danger" (click)="onChangeLnguage('kn')">
+        Kannada
+      </button>
     </div>
   </div>
 </div>
