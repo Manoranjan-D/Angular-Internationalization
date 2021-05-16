@@ -1,11 +1,3 @@
-# Angular-Internationalization
-
-![](src/assets/screenshot.png)
-
-## Live Demo
-
-[Demo](https://angular-internationalization.netlify.app)
-
 ## Development server
 
 `git clone https://github.com/Manoranjan-D/Angular-Internationalization.git`
@@ -24,7 +16,7 @@ Navigate to `http://localhost:4200/`. The app will automatically reload if you c
 
 Navigate to `http://localhost:8080/`.
 
-### Steps for making Angular application localization
+## Steps for making Angular application localization
 
 1. Create angular project
    `ng new project-name`
